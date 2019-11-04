@@ -1,0 +1,38 @@
+- git init
+	Creates a Git repository in the current folder/directory
+
+- git status
+	View the status of each file in a repository
+
+- git add [file] [.]
+	Stage a file to the next commit
+
+- git commit
+	Commit the staged files with a descriptive message
+
+- git log
+	View a repository's commit history
+
+- git config --global user.name [name]
+	Defines the author name to be used in all repositories
+
+- git config --global user.email [email]
+	Defines the author e-mail to be used in all repositories
+
+- git checkout [commit-id]
+	View a previous commit
+
+- git tag -a [tag-name] -m "description"
+	Create an annotated tag pointing to the most recent commit
+
+- git revert [commit-id]
+	Undo the specified commit by applying a new commit
+
+-git reset --hard
+	Reset tracked files to match the most recent commit
+
+- git clean -f
+	Remove untracked files
+
+-git reset --hard/git clean -f
+	Permanetly undo uncommitted changes.
